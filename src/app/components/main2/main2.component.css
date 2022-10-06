@@ -1,0 +1,105 @@
+/* ********** main 2 ********** */
+
+.main2 {
+  width: 98%;
+  height: 20vh;
+  background: #ffff;
+  position: relative;
+  display: inline-block;
+  border: solid 2px #000;
+  border-radius: 1em;
+  box-shadow: 5px 10px 10px #AEAEAE;
+  margin: 0 0.5em 0.4em 1em;
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+
+  from {
+    margin-left: -100%;
+    width: -300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+
+.titulo {
+  position: relative;
+  left: 1.5em;
+  line-height: 1;
+}
+
+.titulo h3 {
+  font-family: Arial;
+  font-size: 1rem;
+  margin: 0.8em 0 0.4em 0;
+}
+
+.firstLine {
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo h4 {
+  font-family: Arial;
+  font-size: 0.9rem;
+  margin: 0.3em 0.9em 0 0;
+}
+
+.titulo p {
+  color: #676767;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  top: 32em;
+  left: 10em;
+  line-height: 1.5;
+  margin: 0.1em 0 0.4em 0;
+}
+
+.btn-edit1 {
+  position: absolute;
+  top: 0.2em;
+  right: 2.5em;
+  font-size: 1em;
+}
+
+.btn-edit2 {
+  position: absolute;
+  top: 2em;
+  right: 4.5em;
+  font-size: 1em;
+}
+
+.btn-edit3 {
+  position: absolute;
+  top: 2em;
+  right: 2.5em;
+  font-size: 1em;
+}
+
+.btn-edit4 {
+  position: absolute;
+  top: 0.2em;
+  right: 2.5em;
+  font-size: 1em;
+}
+
+.btn-edit5 {
+  position: absolute;
+  top: 2em;
+  right: 4.5em;
+  font-size: 1em;
+}
+
+.btn-edit6 {
+  position: absolute;
+  top: 2em;
+  right: 2.5em;
+  font-size: 1em;
+}

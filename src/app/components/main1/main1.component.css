@@ -1,0 +1,58 @@
+/* ********** main 1 ********** */
+
+.main1 {
+  width: 98%;
+  height: 9vh;
+  background: #ffff;
+  position: relative;
+  display: inline-block;
+  border: solid 2px #000;
+  border-radius: 1em;
+  box-shadow: 5px 10px 10px #AEAEAE;
+  margin: 0 0.5em 0.4em 1em;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+
+  from {
+    margin-left: -100%;
+    width: -300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+
+.texto {
+  width: 100%;
+  position: absolute;
+  left: 1.5em;
+  line-height: 1;
+}
+
+.texto h3 {
+  font-family: Arial;
+  font-size: 1.2em;
+  margin: 0.9em 0 0 0;
+}
+
+.texto p {
+  color: #676767;
+  font-weight: 100;
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  top: 37em;
+  line-height: 1.5;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.btn-edit {
+  position: absolute;
+  top: 12%;
+  right: 2.3%;
+}
